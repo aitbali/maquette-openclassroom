@@ -24,7 +24,7 @@ Critères d'évaluation
 
 Questions 1 : 
     -Quel langage avez vous utiliser pour cette maquette ?
-    
+
 Reponse 1:
     -J ai utilisé HTML et CSS
 
@@ -32,7 +32,7 @@ Question 2:
     -Qu avez vous fait pour aligner les elements en vertical,ou en horizontal ?
 
 Reponse2:
-    -J ai utilisé felxbox , ses propriétés "position: flex" et "flex-direction: row" pour aligner les elements en ligne , ou "flex-direction: column" pour aligner les elements en colonne.
+    -J ai utilisé flexbox , ses propriétés "position: flex" et "flex-direction: row" pour aligner les elements en ligne , ou "flex-direction: column" pour aligner les elements en colonne.
 
 Question3:
     -Avevous rendu la page responsive et comment qu avez vous utilisé ?
