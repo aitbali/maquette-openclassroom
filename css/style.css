@@ -47,9 +47,7 @@ div#overview{
     
 }
 
-.star{
-    color: black;
-}
+
 div#rating{
     position: relative;
 	color: rgb(2, 2, 2);
@@ -64,7 +62,7 @@ div#rating{
     overflow: auto;
  }
 
-div#crcl_jaune{
+div#crcl{
 	background: rgb(255, 255, 255);
 	border-radius: 50%;
 	width: 50px;
@@ -73,8 +71,7 @@ div#crcl_jaune{
     text-align: center;
 }
 
-div#txt_crcl_jaune{
-    position: relative;
+div#txt_crcl{
 	color: rgb(2, 2, 2);
 	text-align: center;
 }
@@ -83,18 +80,30 @@ table{
 }
 td , th
 {
-    display: relative;
     text-align: left;
 }
 
-tr:nth-child(even) {background-color: #f2f2f2;}
+tr:nth-child(even) {background-color: #d4d3d3;}
 
 
 @media screen and (max-width: 1280px)
 { 
+   
     body{
-        background-color: black;
-        display: relative;
+        position: relative;
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex-direction: row;
+        margin:auto;
+    }   
+
+    article{    
+        position: relative; 
+        display: flex;
         flex-direction: column;
-    } 
+        background-color: rgb(247, 247, 247);
+        width: 100%;
+    }
+ 
+
 }
