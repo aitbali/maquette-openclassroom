@@ -3,8 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Openclassroom mini project</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" 
+    href="css/style.css" />
   </head>
   <body>
     <article class="page">
@@ -12,11 +13,12 @@
           <img src="img/plat.jpg"  >
         </header>
         <section class="texte">
-          <div>
-            <h1>French Cookies</h1>
-            <p>Efficient aggregate maximize clicks-and-mortar infrastructures communities weblogs best-of-breed blogospheres frictionless interfaces B2C.</p>
-            <h2>Overview</h2>
-            <hr>
+            <div id="title">
+              <h1>French Cookies</h1>
+              <p>Efficient aggregate maximize clicks-and-mortar infrastructures communities weblogs best-of-breed blogospheres frictionless interfaces B2C.</p>
+              <h2>Overview</h2>
+              <hr>
+            </div>
             <div id="overview">
               <div class="rating">
                 <a class="star">&star; </a>
@@ -26,34 +28,37 @@
                 <a class="star">&starf;</a>
                 <p>Difficulty</p>
               </div>
-              <div id="crcl_jaune">
-                <div id="txt_crcl_jaune">
+              <div id="crcl">
+                <div id="txt_crcl">
                   <p>€€</p>
                 </div>
                 <p>Cost</p>
               </div>
-              <div id="crcl_jaune">
-                <div id="txt_crcl_jaune">
+              <div id="crcl">
+                <div id="txt_crcl">
                   <p>45mn</p>
                 </div>
                 <p>Praparation</br>Time</p>
               </div>
-              <div id="crcl_jaune">
-                <div id="txt_crcl_jaune">
+              <div id="crcl">
+                <div id="txt_crcl">
                   <p>0mn</p>
                 </div>
                 <p>Coking</br>Time</p>
               </div>
-              <div id="crcl_jaune">
-                <div id="txt_crcl_jaune">
+              <div id="crcl">
+                <div id="txt_crcl">
                   <p>10mn</p>
                 </div>
                 <p>Resting</br>Time</p>
               </div>
             </div>
-            <h2>Ingredients</h2>
-            <hr>
-            <p>Servings: <strong>&ndash;</strong> 4 <strong>+</strong></p>
+            <div>
+              <h2>Ingredients</h2>
+              <hr>
+              <p>Servings: <strong>&ndash;</strong> 4 <strong>+</strong></p>
+              <hr>
+            </div>
             <table>
                 <tr>
                     <th>#</th>
@@ -87,7 +92,6 @@
                 </tr>
              </table>
              <p>List of the recipe ingredients</p>
-          </div>
         </section>
     </article>
   </body>
