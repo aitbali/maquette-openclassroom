@@ -24,25 +24,30 @@ Critères d'évaluation
 
 Questions 1 : 
     -Quel langage avez vous utiliser pour cette maquette ?
+    
 Reponse 1:
     -J ai utilisé HTML et CSS
 
 Question 2: 
     -Qu avez vous fait pour aligner les elements en vertical,ou en horizontal ?
+
 Reponse2:
     -J ai utilisé felxbox , ses propriétés "position: flex" et "flex-direction: row" pour aligner les elements en ligne , ou "flex-direction: column" pour aligner les elements en colonne.
 
 Question3:
     -Avevous rendu la page responsive et comment qu avez vous utilisé ?
+
 Reponse3:
     - Oui , avec les media queries , notamment "@media screen and (max-width: 1280px)" dans le css et "<link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/style.css" />" dans le html .
 
 Question4:
-    -Qu avez vous utilisé pour faire les etoiles ? 
+    -Qu avez vous utilisé pour faire les etoiles ?
+
 Reponse4:
     -J ai utilisé les caracteres speciaux "&star;" et "&starf;" pour faire les etoiles , 
 
 Question5:
     -Qu avez vous utilisé pour les cercles  et les etoiles ?
+
 Reponse5:
     -J ai utilisé la propriété css "border-radius" pour faire des cercles . 
